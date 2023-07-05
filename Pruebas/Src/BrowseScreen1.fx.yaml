@@ -100,7 +100,7 @@
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextOneImageVariant_ver4.0'":
         Height: =Parent.Height - Self.Y
-        Items: =SortByColumns(Search([@FlooringEstimates], TextSearchBox1.Text, "Category","Name","Overview"), "Category", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: =SortByColumns(Search([@FlooringEstimates], TextSearchBox1.Text, "Category","Name","Overview"), "Category", If(SortDescending1, SortOrder.Descending, SortOrder.Descending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
         ShowScrollbar: =false

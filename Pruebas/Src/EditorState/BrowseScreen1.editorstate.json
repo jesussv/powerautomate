@@ -229,7 +229,7 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
-          "AFDDataSourceName": "FlooringEstimates",
+          "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
           "InvariantPropertyName": "Items",
